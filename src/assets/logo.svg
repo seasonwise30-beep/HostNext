@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#9333EA" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(5, 10)">
+    <rect width="40" height="40" rx="10" fill="url(#logo-grad)" />
+    <path d="M20 6 L10 22 H17 L14 36 L30 18 H22 L26 6 Z" fill="#ffffff" />
+  </g>
+  <text x="55" y="38" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="800" fill="#ffffff">
+    Host<tspan fill="url(#logo-grad)">Next</tspan>
+  </text>
+</svg>
