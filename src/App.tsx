@@ -26,7 +26,7 @@ import AdminAnalytics from './pages/admin/AdminAnalytics';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/hostnext-preview">
+    <BrowserRouter basename="/HostNexf">
       <Routes>
         <Route path="/" element={<AppLayout />}>
           {/* Public Routes */}
